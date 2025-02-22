@@ -1,0 +1,8 @@
+.auth-card {
+	max-width: 350px;
+}
+
+.card-header-title {
+	font-size: large !important;
+    font-weight: bold !important;
+}

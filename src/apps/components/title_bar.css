@@ -1,0 +1,10 @@
+.title-text {
+	font-size: larger;
+    font-weight: bold;
+}
+
+.title-home {
+    cursor: pointer;
+    padding-left: 8px;
+    padding-top: 8px;
+}
