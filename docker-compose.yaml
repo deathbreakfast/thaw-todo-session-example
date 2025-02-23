@@ -1,0 +1,11 @@
+version: '3'
+services:
+  registry:
+    image: thaw_todo_session_sqlx:latest
+    container_name: thaw_todo_session_sqlx
+    restart: always
+    user: root
+    ports:
+      - 8080:8080
+    volumes:
+      - ./data:/data:rw
